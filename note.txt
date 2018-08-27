@@ -1,0 +1,4 @@
+#git 学习笔记
+初始化git仓库：git init
+将工作区文件添加到暂存区：git add <filename>
+将暂存区内容提交到版本库：git commit -m <message>
