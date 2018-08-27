@@ -18,7 +18,10 @@ cd 工作区目录
 
 ***远程仓库GitHub***
 https://github.com
-新建仓库获得仓库地址https://github.com/Ryconler/learngit.git
-将本地仓库与远程仓库关联：git remote add origin https://github.com/Ryconler/learngit.git
+新建仓库获得仓库地址（url）https://github.com/Ryconler/learngit.git
+将本地仓库与远程仓库关联：git remote add origin <url>
 解除关联：git remote remove origin
-将本地仓库内容推送到远程仓库上：git push -u origin master  之后的推送可以省略-u
+将本地仓库内容推送到远程仓库上：git push -u origin master
+
+cd 本地目录
+克隆远程仓库到该目录：git clone <url>
